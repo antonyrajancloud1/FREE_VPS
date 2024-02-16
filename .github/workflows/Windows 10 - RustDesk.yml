@@ -23,7 +23,7 @@ jobs:
       run: Expand-Archive ngrok.zip
       
     - name: update
-      run: ngrok update
+      run: .\ngrok\ngrok.exe update
       
     - name: Auth
 
